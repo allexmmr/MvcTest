@@ -1,0 +1,4 @@
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Common.Enums\bin\Debug\MvcTest.Common.Enums.dll
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Common.Enums\bin\Debug\MvcTest.Common.Enums.pdb
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Common.Enums\obj\Debug\MvcTest.Common.Enums.dll
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Common.Enums\obj\Debug\MvcTest.Common.Enums.pdb
