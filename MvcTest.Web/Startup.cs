@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using MvcTest.Data;
+using MvcTest.Data.Migrations;
 
 namespace MvcTest.Web
 {
@@ -25,10 +27,11 @@ namespace MvcTest.Web
         {
             // Add framework services.
             services.AddMvc();
+            services.AddScoped<MvcTestContext>(_ => new MvcTestContext(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, MvcTestContext context)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
@@ -51,6 +54,8 @@ namespace MvcTest.Web
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            DbInitialiser.Initialise(context);
         }
     }
 }

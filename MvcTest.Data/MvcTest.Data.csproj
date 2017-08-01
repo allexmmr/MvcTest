@@ -53,7 +53,7 @@
     <Compile Include="Migrations\20170801_Initial.Designer.cs">
       <DependentUpon>20170801_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\DbInitialiser.cs" />
     <Compile Include="Models\Contact.cs" />
     <Compile Include="MvcTestContextFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

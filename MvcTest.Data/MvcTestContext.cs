@@ -1,6 +1,5 @@
 ﻿using MvcTest.Data.Models;
 using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace MvcTest.Data
 {
@@ -14,7 +13,7 @@ namespace MvcTest.Data
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            modelBuilder.Entity<Contact>().ToTable("Contact");
         }
     }
 }

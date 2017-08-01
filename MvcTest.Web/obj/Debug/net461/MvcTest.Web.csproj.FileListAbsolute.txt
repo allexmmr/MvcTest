@@ -135,6 +135,8 @@ C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\b
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\MvcTest.Web.exe
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\MvcTest.Web.pdb
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\libuv.dll
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\EntityFramework.SqlServer.dll
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\EntityFramework.dll
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\Microsoft.ApplicationInsights.dll
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\Microsoft.AI.Agent.Intercept.dll
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\Microsoft.ApplicationInsights.AspNetCore.dll
@@ -254,8 +256,13 @@ C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\b
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\System.Xml.XmlDocument.dll
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\System.Xml.XPath.dll
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\MvcTest.Common.dll
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\MvcTest.Data.dll
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\MvcTest.Data.pdb
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\MvcTest.Data.dll.config
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\net461\MvcTest.Common.pdb
+C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\obj\Debug\net461\MvcTest.Web.csprojResolveAssemblyReference.cache
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\obj\Debug\net461\MvcTest.Web.csproj.MvcTest.Web.exe.config
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\obj\Debug\net461\MvcTest.Web.AssemblyInfo.cs
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\obj\Debug\net461\MvcTest.Web.exe
 C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\obj\Debug\net461\MvcTest.Web.pdb
-C:\Users\Allex Rocha\Documents\Visual Studio 2017\Projects\MvcTest\MvcTest.Web\obj\Debug\net461\MvcTest.Web.csprojResolveAssemblyReference.cache
