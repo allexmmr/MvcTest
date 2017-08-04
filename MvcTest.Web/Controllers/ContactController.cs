@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using MvcTest.Data;
 using MvcTest.Data.Models;
-using System.Linq;
+using System.Data.Entity;
 using System.Threading.Tasks;
 
 namespace MvcTest.Web.Controllers
@@ -37,13 +36,13 @@ namespace MvcTest.Web.Controllers
                 return NotFound();
             }
 
-            return View(contact);
+            return PartialView(contact);
         }
 
         // GET: Contact/Create
         public IActionResult Create()
         {
-            return View();
+            return PartialView();
         }
 
         // POST: Contact/Create
@@ -51,22 +50,15 @@ namespace MvcTest.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("FirstName,LastName,Knickname,DisplayAs,DateOfBirth,PhoneNumber")] Contact contact)
         {
-            try
+            if (ModelState.IsValid)
             {
-                if (ModelState.IsValid)
-                {
-                    _context.Contacts.Add(contact);
-                    await _context.SaveChangesAsync();
+                _context.Contacts.Add(contact);
+                await _context.SaveChangesAsync();
 
-                    return RedirectToAction("Index");
-                }
+                return RedirectToAction("Successfully");
             }
-            catch (DbUpdateException /* ex */)
-            {
-                //Log the error (uncomment ex variable name and write a log.
-                ModelState.AddModelError("", "Unable to save changes.");
-            }
-            return View(contact);
+
+            return PartialView(contact);
         }
 
         // GET: Contact/Edit/5
@@ -84,7 +76,7 @@ namespace MvcTest.Web.Controllers
                 return NotFound();
             }
 
-            return View(contact);
+            return PartialView(contact);
         }
 
         // POST: Contact/Edit/5
@@ -100,13 +92,13 @@ namespace MvcTest.Web.Controllers
             if (ModelState.IsValid)
             {
                 _context.Contacts.Attach(contact);
-                _context.Entry(contact).State = System.Data.Entity.EntityState.Modified;
+                _context.Entry(contact).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Successfully");
             }
 
-            return View(contact);
+            return PartialView(contact);
         }
 
         // GET: Contact/Delete/5
@@ -124,7 +116,7 @@ namespace MvcTest.Web.Controllers
                 return NotFound();
             }
 
-            return View(contact);
+            return PartialView(contact);
         }
 
         // POST: Contact/Delete/5
@@ -136,7 +128,13 @@ namespace MvcTest.Web.Controllers
             _context.Contacts.Remove(contact);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Successfully");
+        }
+
+        // GET: Successfully
+        public ActionResult Successfully()
+        {
+            return PartialView("Successfully", "Shared");
         }
     }
 }

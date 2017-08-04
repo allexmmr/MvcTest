@@ -3,10 +3,10 @@
 @{
     ViewData["Title"] = "Contact";
 }
-<h2>@ViewData["Title"]</h2>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<h3>@ViewData["Title"]</h3>
+<h5>
+    <button type="button" class="bmd-modalButton" data-toggle="modal" data-bmdSrc="Contact/Create" data-target="#myModal">Create New</button>
+</h5>
 <table class="table">
     <thead>
         <tr>
@@ -28,9 +28,9 @@
                 <td>@Html.DisplayFor(modelItem => item.DateOfBirth)</td>
                 <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <button type="button" class="bmd-modalButton" data-toggle="modal" data-bmdSrc="Contact/Details/@item.Id" data-target="#myModal">Details</button>
+                    <button type="button" class="bmd-modalButton" data-toggle="modal" data-bmdSrc="Contact/Edit/@item.Id" data-target="#myModal">Edit</button>
+                    <button type="button" class="bmd-modalButton" data-toggle="modal" data-bmdSrc="Contact/Delete/@item.Id" data-target="#myModal">Delete</button>
                 </td>
             </tr>
         }
