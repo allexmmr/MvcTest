@@ -1,4 +1,6 @@
 # ASP.NET Core MVC Test
+This is a sample code developed in ASP.NET Core, using Entity Framework Code First, HTML, CSS, Bootstrap, jQuery and more.
+#
 
 #### Objective
 ###### Given the following entity:
