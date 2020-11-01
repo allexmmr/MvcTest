@@ -1,9 +1,0 @@
-C:\Users\gmg\documents\visual studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\netcoreapp1.1\MvcTest.Web.deps.json
-C:\Users\gmg\documents\visual studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\netcoreapp1.1\MvcTest.Web.runtimeconfig.json
-C:\Users\gmg\documents\visual studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\netcoreapp1.1\MvcTest.Web.runtimeconfig.dev.json
-C:\Users\gmg\documents\visual studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\netcoreapp1.1\MvcTest.Web.dll
-C:\Users\gmg\documents\visual studio 2017\Projects\MvcTest\MvcTest.Web\bin\Debug\netcoreapp1.1\MvcTest.Web.pdb
-C:\Users\gmg\documents\visual studio 2017\Projects\MvcTest\MvcTest.Web\obj\Debug\netcoreapp1.1\MvcTest.Web.csprojResolveAssemblyReference.cache
-C:\Users\gmg\documents\visual studio 2017\Projects\MvcTest\MvcTest.Web\obj\Debug\netcoreapp1.1\MvcTest.Web.AssemblyInfo.cs
-C:\Users\gmg\documents\visual studio 2017\Projects\MvcTest\MvcTest.Web\obj\Debug\netcoreapp1.1\MvcTest.Web.dll
-C:\Users\gmg\documents\visual studio 2017\Projects\MvcTest\MvcTest.Web\obj\Debug\netcoreapp1.1\MvcTest.Web.pdb
